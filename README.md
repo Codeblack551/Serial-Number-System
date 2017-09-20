@@ -2,6 +2,8 @@
 
 An extremely basic serial number and HWID lock system for selling VB.NET and C# programs!
 
+5.4289235e+26 total serial keys
+
 ## Setup
 
 ### SQL
