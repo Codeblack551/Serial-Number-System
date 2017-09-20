@@ -11,7 +11,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         check = 0
-
+        
         Dim hw As New clsComputerInfo
         Dim cpu As String
         Dim mb As String
