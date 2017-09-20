@@ -76,3 +76,7 @@ Finally, edit lines 99-106 to be something like:
 And build your program on Form2
 
 Best of luck!
+
+## Credits
+
+[JackkTutorials](https://www.youtube.com/channel/UC64x_rKHxY113KMWmprLBPA) for the [HWID creation and encryption code.](https://www.youtube.com/watch?v=CBe-gQiO-dA)
