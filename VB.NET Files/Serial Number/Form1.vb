@@ -86,7 +86,7 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         check = 1
         Button1.Enabled = False
-        WebBrowser1.Navigate("http://localhost/serial/serial_get.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
+    WebBrowser1.Navigate("http://localhost/serial/serialcheck.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
     End Sub
 
     Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
@@ -119,6 +119,6 @@ Public Class Form1
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        WebBrowser1.Navigate("http://localhost/serial/serial_get.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
+        WebBrowser1.Navigate("http://localhost/serial/serialcheck.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
     End Sub
 End Class
