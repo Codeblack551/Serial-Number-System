@@ -1,0 +1,11 @@
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\bin\Debug\Serial Number.exe.config
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\bin\Debug\Serial Number.exe
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\bin\Debug\Serial Number.pdb
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\bin\Debug\Serial Number.xml
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial Number.vbprojResolveAssemblyReference.cache
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial_Number.Form1.resources
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial_Number.Resources.resources
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial Number.vbproj.GenerateResource.Cache
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial Number.exe
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial Number.xml
+c:\users\darcy\documents\visual studio 2017\Projects\Serial Number\Serial Number\obj\Debug\Serial Number.pdb
