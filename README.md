@@ -50,12 +50,29 @@ $dbname = "serial";
 
 Edit line 81 and 122 from
 
-```
+``` vb.net
 WebBrowser1.Navigate("http://localhost/serial/serialcheck.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
 ```
 
 To
 
-```
+``` vb.net
 WebBrowser1.Navigate("http://YOURDOMAINGOESHERE.com/PATH/TO/serialcheck.php?serial=" + TextBox1.Text + "&hwidin=" + TextBox2.Text + "&submit=Submit")
 ```
+
+Finally, edit lines 99-106 to be something like:
+
+``` vb.net
+            ElseIf (WebBrowser1.DocumentText.Contains("1")) Then
+                check = 0
+                Button1.Enabled = True
+                My.Settings.Installed = True
+                My.Settings.Serial = TextBox1.Text
+                My.Settings.Save()
+                Timer1.Stop()
+                Form2.Show()
+```
+
+And build your program on Form2
+
+Best of luck!
