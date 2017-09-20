@@ -12,6 +12,13 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         check = 0
         
+        Try
+            My.Computer.Network.Ping("www.yoursite.com")
+        Catch
+            MsgBox("Error: Unable to connect to the website", vbCritical)
+            Application.Exit()
+        End Try
+        
         Dim hw As New clsComputerInfo
         Dim cpu As String
         Dim mb As String
@@ -114,6 +121,11 @@ Public Class Form1
                 Button1.Enabled = True
                 Timer1.Stop()
                 MsgBox("No serial with that key")
+            ElseIf (WebBrowser1.DocumentText.Contains("Object not found")) Then
+                check = 0
+                Button1.Enabled = True
+                Timer1.Stop()
+                MsgBox("404: Page not found")
             End If
         End If
     End Sub
